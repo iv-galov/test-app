@@ -109,8 +109,6 @@ const initialState = Map(
   
   // Function to save new ellipse state to history
   function saveHistory(state = initialState, save = false) {
-    console.log(save);
-    
     if (save === false) {
       return state;
     } 
