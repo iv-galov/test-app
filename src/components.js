@@ -67,7 +67,7 @@ class Ellipse extends React.Component {
   class Settings extends React.Component {  
     // handle click on input boxes to get new values to change ellipse
     handleClick = (i, e) => {
-      var num = parseInt(prompt("Please enter your name"), 10);
+      var num = parseInt(prompt("Please enter a number"), 10);
       switch(i) {
         case 1: {
           this.props.dispatch(moveFigure(num, this.props.store.cy, true));
